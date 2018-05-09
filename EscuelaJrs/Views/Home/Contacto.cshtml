@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Contacto";
+}
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+    <div class="container">
+        <!-- Page Heading/Breadcrumbs -->
+        <h1 class="mt-4 mb-3">
+            Contacto            
+        </h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="~/Views/Home/Index.cshtml">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Contacto</li>
+        </ol>
+        <!-- Contenido fila -->
+        <div class="row">
+            <!-- Mapa -->
+            <div class="col-lg-8 mb-4">
+                <!--  Google Map -->
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.cl/maps/place/juan+ricardo+sanchez+ascencio/-40.5586654,-73.1526523,17.5z/data=!4m5!3m4!1s0x0:0x37a5887ec431e522!8m2!3d-40.5587967!4d-73.1524779?hl=es-419"></iframe>
+            </div>
+            <!-- Detalles Contacto -->
+            <div class="col-lg-4 mb-4">
+                <h3>Informacion Contacto</h3>
+                <p>
+                    Heroes De La Concepción Esquina Los Naranjos S/n
+                    <br>Osorno, Chile
+                    <br>
+                </p>
+                <p>
+                    <abbr title="Teléfono">T</abbr>: (64) 238577
+                </p>
+                <p>
+                    <abbr title="Email">E</abbr>:
+                    <a href="mailto:escuelajuanricardosanchez@imo.cl">
+                        escuelajuanricardosanchez@imo.cl
+                    </a>
+                </p>
+                <p>
+                    <abbr title="Horario">H</abbr>: Lunes a Jueves desde 8:00 hasta 17:00 horas. <br/> Viernes desde las 8:00 hasta las 14:00 horas.
+                </p>
+            </div>
+        </div>
