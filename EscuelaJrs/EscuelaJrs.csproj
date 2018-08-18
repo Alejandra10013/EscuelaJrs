@@ -185,7 +185,14 @@
     <Content Include="Images\9.jpg" />
     <Content Include="Images\a.jpg" />
     <Content Include="Images\b.jpg" />
+    <Content Include="Images\becas_junaeb.png" />
     <Content Include="Images\c.jpg" />
+    <Content Include="Images\certif-mineduc.png" />
+    <Content Include="Images\certif-registroCiv.png" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\mineduc.png" />
+    <Content Include="Images\pdf-icon.jpg" />
+    <Content Include="Images\TNE.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -222,7 +229,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Reglamento.cshtml" />
     <Content Include="Views\Home\Contacto.cshtml" />
   </ItemGroup>
   <ItemGroup>
